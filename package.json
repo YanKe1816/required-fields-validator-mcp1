@@ -1,0 +1,15 @@
+{
+  "name": "required-fields-validator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck && node --experimental-strip-types --test --test-isolation=none test/index.test.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250709.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.24.3"
+  }
+}
