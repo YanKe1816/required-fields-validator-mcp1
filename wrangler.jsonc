@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "name": "required-fields-validator-mcp1",
+  "name": "required-fields-validator-mcp1",
   "main": "src/index.ts",
   "compatibility_date": "2025-07-09"
 }
